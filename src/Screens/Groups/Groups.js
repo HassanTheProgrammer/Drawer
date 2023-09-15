@@ -1,17 +1,12 @@
 //import liraries
 import React, {Component} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import Button from '../../Components/Button';
-import SCREENS from '../../constants/SCREENS';
 
 // create a component
-const ScreenThree = ({navigation}) => {
+const Groups = () => {
   return (
     <View style={styles.container}>
-      <Button
-        title="Go To Scrren Four"
-        onPress={() => navigation.navigate(SCREENS.SCREEN_FOUR)}
-      />
+      <Text>Groups</Text>
     </View>
   );
 };
@@ -26,4 +21,4 @@ const styles = StyleSheet.create({
 });
 
 //make this component available to the app
-export default ScreenThree;
+export default Groups;

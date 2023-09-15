@@ -1,6 +1,8 @@
 export default {
-  SCREEN_ONE: 'ScreenOne',
-  SCREEN_TWO: 'ScreenTwo',
-  SCREEN_THREE: 'ScreenThree',
-  SCREEN_FOUR: 'ScreenFour',
+  HOME: 'Home',
+  CHATS: 'Chats',
+  GROUPS: 'Groups',
+  GOOGLE_MAP: 'GoogleMap',
+  TABS: 'Tabs',
+  DRAWER: 'Drawer',
 };

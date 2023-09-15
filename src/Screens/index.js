@@ -1,4 +1,4 @@
-export {default as ScreenOne} from './ScreenOne/index';
-export {default as ScreenTwo} from './ScreenTwo/index';
-export {default as ScreenThree} from './ScreenThree/index';
-export {default as ScreenFour} from './ScreenFour/index';
+export {default as Home} from './Home/Home';
+export {default as Chats} from './Chats/Chats';
+export {default as Groups} from './Groups/Groups';
+export {default as GoogleMap} from './GoogleMap/GoogleMap';
